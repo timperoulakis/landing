@@ -1,0 +1,73 @@
+/* components */
+@import url('components/banner.css');
+@import url('components/btn.css');
+@import url('components/cards.css');
+@import url('components/container.css');
+@import url('components/footer.css');
+@import url('components/list.css');
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.1/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+body {
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+  .cards {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .card-white {
+    width: 400px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 400px;
+  }
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+}
